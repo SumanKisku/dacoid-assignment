@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log In | Dacoid Assigment</title>
+    <link href="./src/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="flex flex-col justify-center items-center">
+      <div class="mx-auto w-11/12 py-8 bg-white">
+        <h2 class="text-xl font-semibold text-gray-800 mb-6">
+          Welcome Back
+        </h2>
+        <form>
+          <div class="mb-4">
+            <input
+              type="email"
+              placeholder="Email"
+              class="border rounded-md px-4 py-2 w-full bg-gray-100 focus:outline-none focus:border-blue-500"
+            />
+          </div>
+          <div class="mb-6">
+            <input
+              type="password"
+              placeholder="Password"
+              class="border rounded-md px-4 py-2 w-full bg-gray-100 focus:outline-none focus:border-blue-500"
+            />
+          </div>
+          <div class="flex flex-grow"></div>
+          <button
+            type="submit"
+            class="w-full py-2 px-4 bg-gradient-to-r from-sky-300 to-indigo-600 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+          >
+            Sign In
+          </button>
+        </form>
+        <div class="flex items-center mt-4">
+          <div class="w-full border-t border-gray-300"></div>
+          <div class="mx-4 text-sm text-gray-600">Or</div>
+          <div class="w-full border-t border-gray-300"></div>
+        </div>
+        <div class="mt-4 flex justify-center space-x-4">
+          <button
+            class="bg-white py-2 border border-gray-400 px-4 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+          >
+            <img
+              src="https://fonts.gstatic.com/s/i/productlogos/googleg/v6/24px.svg"
+              alt="Google"
+              class="h-6 w-auto"
+            />
+          </button>
+          <button
+            class="bg-white py-2 border border-gray-400 px-4 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Facebook_icon.svg"
+              alt="Google"
+              class="h-6 w-auto"
+            />
+          </button>
+        </div>
+      </div>
+      <div class="mt-8 text-center">
+        <p>
+          Already have an account? <a href="#" class="text-blue-500 underline">Login</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
